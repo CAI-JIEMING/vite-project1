@@ -1,10 +1,13 @@
+import Comp1 from "./comp1"
 
 
-
-export default function Comps(){
+export default function Comps() {
 
 
     return (
-        <div>Comps</div>
+        <div>
+            <div>Comps</div>
+            <Comp1></Comp1>
+        </div>
     )
 }
